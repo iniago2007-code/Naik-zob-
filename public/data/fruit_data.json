@@ -1,0 +1,631 @@
+{
+  "Central African Republic": {
+    "country": "Central African Republic",
+    "region": "Central Africa",
+    "main_fruits_produced": "Bananas, Plantains, Mangoes, Papaya",
+    "production_rating": 4,
+    "production_season": "Year-round",
+    "notes": "Subsistence farming dominates; limited commercial production",
+    "detailed_production": {
+      "Bananas": 120000
+    }
+  },
+  "Liberia": {
+    "country": "Liberia",
+    "region": "West Africa",
+    "main_fruits_produced": "Bananas, Pineapple, Papaya, Coconuts, Sugarcane",
+    "production_rating": 5,
+    "production_season": "Year-round",
+    "notes": "Tropical climate; mostly subsistence farming",
+    "detailed_production": {
+      "Bananas": 120000,
+      "Pineapple": 45000
+    }
+  },
+  "Cabo Verde": {
+    "country": "Cabo Verde",
+    "region": "West Africa (Islands)",
+    "main_fruits_produced": "Bananas, Mangoes, Papaya, Sugar Cane",
+    "production_rating": 4,
+    "production_season": "Year-round (Mangoes: Jun-Sep)",
+    "notes": "Small island production; mostly for domestic use",
+    "detailed_production": {
+      "Bananas": 6000,
+      "Mangoes": 3000
+    }
+  },
+  "Mozambique": {
+    "country": "Mozambique",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Mangoes, Avocados, Papaya, Citrus",
+    "production_rating": 6,
+    "production_season": "Mangoes: Oct-Jan; Bananas year-round",
+    "notes": "Good climate; significant smallholder production",
+    "detailed_production": {
+      "Bananas": 130000,
+      "Mangoes": 200000
+    }
+  },
+  "Burkina Faso": {
+    "country": "Burkina Faso",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Bananas, Papaya, Shea",
+    "production_rating": 6,
+    "production_season": "Dry season harvest (Mangoes: Apr-Jul)",
+    "notes": "Mangoes are major export; shea fruit widely harvested",
+    "detailed_production": {
+      "Mangoes": 95000,
+      "Shea": 800000
+    }
+  },
+  "Nigeria": {
+    "country": "Nigeria",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Bananas, Pineapple, Papaya, Watermelon, Citrus",
+    "production_rating": 9,
+    "production_season": "Year-round (varies by crop and region)",
+    "notes": "Africa's most populous nation; massive domestic production; export potential underutilized",
+    "detailed_production": {
+      "Mangoes": 900000,
+      "Pineapple": 900000,
+      "Bananas": 2800000
+    }
+  },
+  "Kenya": {
+    "country": "Kenya",
+    "region": "East Africa",
+    "main_fruits_produced": "Avocados, Mangoes, Bananas, Pineapple, Passion Fruit",
+    "production_rating": 9,
+    "production_season": "Year-round (Avocados: Jan-Mar & Jul-Sep; Mangoes: Oct-Dec)",
+    "notes": "Top African avocado exporter; diverse fruit for export and domestic use",
+    "detailed_production": {
+      "Avocados": 370000,
+      "Mangoes": 600000,
+      "Pineapple": 350000
+    }
+  },
+  "South Sudan": {
+    "country": "South Sudan",
+    "region": "East Africa",
+    "main_fruits_produced": "Mangoes, Bananas, Papaya, Guava",
+    "production_rating": 3,
+    "production_season": "Mangoes: Mar-Jun",
+    "notes": "Conflict and infrastructure challenges limit production",
+    "detailed_production": {
+      "Mangoes": 30000
+    }
+  },
+  "Morocco": {
+    "country": "Morocco",
+    "region": "North Africa",
+    "main_fruits_produced": "Oranges, Clementines, Dates, Watermelon, Grapes, Avocados",
+    "production_rating": 9,
+    "production_season": "Citrus: Nov-Apr; Dates: Sep-Nov; Watermelon: Jun-Aug",
+    "notes": "Major citrus exporter to Europe; growing avocado production",
+    "detailed_production": {
+      "Citrus": 2600000,
+      "Watermelon": 700000,
+      "Dates": 140000
+    }
+  },
+  "Uganda": {
+    "country": "Uganda",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Pineapple, Mangoes, Avocados, Passion Fruit, Jackfruit",
+    "production_rating": 10,
+    "production_season": "Year-round (two rainy seasons)",
+    "notes": "World's largest banana producer per capita; enormous diversity and output",
+    "detailed_production": {
+      "Bananas": 11000000,
+      "Pineapple": 380000,
+      "Avocados": 200000
+    }
+  },
+  "Eritrea": {
+    "country": "Eritrea",
+    "region": "East Africa",
+    "main_fruits_produced": "Dates, Citrus, Bananas, Papaya",
+    "production_rating": 3,
+    "production_season": "Dates: Sep-Nov; Citrus: Dec-Mar",
+    "notes": "Limited by dry climate; some irrigated agriculture",
+    "detailed_production": {
+      "Dates": 12000,
+      "Citrus": 8000
+    }
+  },
+  "Chad": {
+    "country": "Chad",
+    "region": "Central Africa",
+    "main_fruits_produced": "Dates, Mangoes, Guava, Citrus",
+    "production_rating": 4,
+    "production_season": "Dates: Sep-Nov; Mangoes: Apr-Jun",
+    "notes": "Semi-arid north limits production; south more productive",
+    "detailed_production": {
+      "Dates": 55000,
+      "Mangoes": 40000
+    }
+  },
+  "Eswatini": {
+    "country": "Eswatini",
+    "region": "Southern Africa",
+    "main_fruits_produced": "Citrus, Pineapple, Mangoes, Avocados",
+    "production_rating": 6,
+    "production_season": "Citrus: May-Sep; Pineapple: Nov-Mar",
+    "notes": "Significant citrus exporter relative to its size",
+    "detailed_production": {
+      "Citrus": 95000,
+      "Pineapple": 15000
+    }
+  },
+  "Mali": {
+    "country": "Mali",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Watermelon, Shea, Bananas",
+    "production_rating": 7,
+    "production_season": "Mangoes: Apr-Jul; Watermelon: Apr-Jun",
+    "notes": "Among Africa's top mango producers; major export to Europe",
+    "detailed_production": {
+      "Mangoes": 600000,
+      "Watermelon": 200000
+    }
+  },
+  "Niger": {
+    "country": "Niger",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Dates, Guava, Onions",
+    "production_rating": 4,
+    "production_season": "Dates: Sep-Nov; Mangoes: Apr-Jun",
+    "notes": "Desert north limits production; mangoes in south",
+    "detailed_production": {
+      "Dates": 80000,
+      "Mangoes": 60000
+    }
+  },
+  "Lesotho": {
+    "country": "Lesotho",
+    "region": "Southern Africa",
+    "main_fruits_produced": "Peaches, Apricots, Apples, Pears",
+    "production_rating": 3,
+    "production_season": "Summer (Dec-Feb)",
+    "notes": "Highland climate suits temperate fruits; small-scale production",
+    "detailed_production": {
+      "Peaches": 5000,
+      "Apples": 3000
+    }
+  },
+  "Democratic Republic of Congo": {
+    "country": "Democratic Republic of Congo",
+    "region": "Central Africa",
+    "main_fruits_produced": "Bananas, Plantains, Mangoes, Pineapple, Papaya",
+    "production_rating": 9,
+    "production_season": "Year-round",
+    "notes": "One of Africa's largest banana producers; vast arable land",
+    "detailed_production": {
+      "Bananas": 4500000,
+      "Plantains": 1200000
+    }
+  },
+  "Algeria": {
+    "country": "Algeria",
+    "region": "North Africa",
+    "main_fruits_produced": "Dates, Figs, Oranges, Grapes",
+    "production_rating": 7,
+    "production_season": "Year-round (Dates: Oct-Dec; Citrus: Nov-Apr; Grapes: Jul-Sep)",
+    "notes": "Major date exporter; Mediterranean climate supports diverse fruit",
+    "detailed_production": {
+      "Dates": 1100000,
+      "Figs": 80000,
+      "Oranges": 450000
+    }
+  },
+  "Tanzania": {
+    "country": "Tanzania",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Mangoes, Pineapple, Avocados, Passion Fruit, Cashew",
+    "production_rating": 9,
+    "production_season": "Year-round (two seasons: short rains Oct-Dec; long rains Mar-Jun)",
+    "notes": "One of Africa's largest banana producers; growing avocado export",
+    "detailed_production": {
+      "Bananas": 5200000,
+      "Mangoes": 380000,
+      "Avocados": 120000
+    }
+  },
+  "Libya": {
+    "country": "Libya",
+    "region": "North Africa",
+    "main_fruits_produced": "Dates, Olives, Figs, Citrus, Grapes",
+    "production_rating": 5,
+    "production_season": "Dates: Sep-Nov; Citrus: Nov-Apr; Grapes: Jul-Sep",
+    "notes": "Semi-arid limits output; oasis agriculture for dates",
+    "detailed_production": {
+      "Dates": 180000,
+      "Olives": 200000
+    }
+  },
+  "Mauritania": {
+    "country": "Mauritania",
+    "region": "West Africa",
+    "main_fruits_produced": "Dates, Watermelon, Citrus",
+    "production_rating": 3,
+    "production_season": "Dates: Sep-Nov",
+    "notes": "Mostly desert; production concentrated in river valley and oases",
+    "detailed_production": {
+      "Dates": 25000
+    }
+  },
+  "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+    "country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "region": "Central Africa (Island)",
+    "main_fruits_produced": "Bananas, Coconuts, Papaya, Cacao, Avocados",
+    "production_rating": 5,
+    "production_season": "Year-round",
+    "notes": "Small island; tropical diversity; mostly local consumption",
+    "detailed_production": {
+      "Bananas": 30000,
+      "Coconuts": 25000
+    }
+  },
+  "Malawi": {
+    "country": "Malawi",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Mangoes, Avocados, Papaya, Citrus",
+    "production_rating": 7,
+    "production_season": "Mangoes: Oct-Jan; Bananas year-round",
+    "notes": "Rich soil; mangoes dominate; growing export potential",
+    "detailed_production": {
+      "Mangoes": 400000,
+      "Bananas": 500000
+    }
+  },
+  "Sudan": {
+    "country": "Sudan",
+    "region": "East Africa",
+    "main_fruits_produced": "Dates, Mangoes, Bananas, Citrus, Guava",
+    "production_rating": 7,
+    "production_season": "Dates: Sep-Nov; Mangoes: Apr-Jul; Citrus: Dec-Mar",
+    "notes": "Significant date and mango production; Nile basin supports agriculture",
+    "detailed_production": {
+      "Dates": 420000,
+      "Mangoes": 350000,
+      "Citrus": 200000
+    }
+  },
+  "Angola": {
+    "country": "Angola",
+    "region": "Central Africa",
+    "main_fruits_produced": "Bananas, Mangoes, Papaya, Pineapple",
+    "production_rating": 5,
+    "production_season": "Year-round (Bananas & Papaya year-round; Mangoes: Oct-Jan)",
+    "notes": "Growing sector with significant untapped potential",
+    "detailed_production": {
+      "Bananas": 300000,
+      "Mangoes": 90000
+    }
+  },
+  "Guinea": {
+    "country": "Guinea",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Bananas, Pineapple, Papaya, Avocados",
+    "production_rating": 7,
+    "production_season": "Mangoes: Apr-Jul; Bananas year-round",
+    "notes": "Significant mango production; underutilized potential",
+    "detailed_production": {
+      "Mangoes": 300000,
+      "Bananas": 550000
+    }
+  },
+  "Benin": {
+    "country": "Benin",
+    "region": "West Africa",
+    "main_fruits_produced": "Pineapple, Mangoes, Cashew Apple, Bananas",
+    "production_rating": 6,
+    "production_season": "Year-round (Mangoes: Mar-Jun; Pineapple: Apr-Aug)",
+    "notes": "Pineapple is a key export crop",
+    "detailed_production": {
+      "Pineapple": 180000,
+      "Mangoes": 75000
+    }
+  },
+  "Senegal": {
+    "country": "Senegal",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Watermelon, Citrus, Bananas, Papayas",
+    "production_rating": 6,
+    "production_season": "Mangoes: May-Jul; Watermelon: Apr-Jun; Citrus: Nov-Mar",
+    "notes": "Growing mango export to Europe; strong smallholder base",
+    "detailed_production": {
+      "Mangoes": 200000,
+      "Watermelon": 80000
+    }
+  },
+  "Namibia": {
+    "country": "Namibia",
+    "region": "Southern Africa",
+    "main_fruits_produced": "Grapes, Dates, Citrus, Figs",
+    "production_rating": 4,
+    "production_season": "Grapes: Jan-Mar; Dates: Sep-Nov",
+    "notes": "Arid climate; table grape export growing; niche production",
+    "detailed_production": {
+      "Grapes": 12000,
+      "Dates": 5000
+    }
+  },
+  "Ivory Coast": {
+    "country": "Ivory Coast",
+    "region": "West Africa",
+    "main_fruits_produced": "Bananas, Pineapple, Mangoes, Avocados, Papaya",
+    "production_rating": 9,
+    "production_season": "Year-round (Bananas peak Jan-Apr; Pineapple Apr-Aug)",
+    "notes": "Major African fruit exporter; 2nd largest banana exporter in Africa",
+    "detailed_production": {
+      "Bananas": 2200000,
+      "Pineapple": 420000
+    }
+  },
+  "Tunisia": {
+    "country": "Tunisia",
+    "region": "North Africa",
+    "main_fruits_produced": "Dates, Olives, Citrus, Peaches, Pomegranate, Figs",
+    "production_rating": 7,
+    "production_season": "Dates: Sep-Nov; Citrus: Nov-Apr; Peaches: Jun-Aug",
+    "notes": "Major date exporter (Deglet Nour variety); Mediterranean fruits dominant",
+    "detailed_production": {
+      "Dates": 280000,
+      "Citrus": 350000
+    }
+  },
+  "Comoros": {
+    "country": "Comoros",
+    "region": "East Africa (Islands)",
+    "main_fruits_produced": "Ylang-Ylang, Bananas, Coconuts, Cloves",
+    "production_rating": 5,
+    "production_season": "Year-round",
+    "notes": "Small island nation; tropical crops dominate",
+    "detailed_production": {
+      "Bananas": 50000,
+      "Coconuts": 77000
+    }
+  },
+  "Guinea-Bissau": {
+    "country": "Guinea-Bissau",
+    "region": "West Africa",
+    "main_fruits_produced": "Cashew Apple, Mangoes, Bananas, Citrus",
+    "production_rating": 5,
+    "production_season": "Cashew: Feb-May; Mangoes: Apr-Jun",
+    "notes": "One of world's top cashew producers; cashew apple byproduct significant",
+    "detailed_production": {
+      "Cashew Apple": 180000,
+      "Mangoes": 30000
+    }
+  },
+  "Gabon": {
+    "country": "Gabon",
+    "region": "Central Africa",
+    "main_fruits_produced": "Bananas, Plantains, Papaya, Pineapple, Coconuts",
+    "production_rating": 5,
+    "production_season": "Year-round",
+    "notes": "Mostly subsistence; oil economy overshadows agriculture",
+    "detailed_production": {
+      "Bananas": 300000
+    }
+  },
+  "Zimbabwe": {
+    "country": "Zimbabwe",
+    "region": "East Africa",
+    "main_fruits_produced": "Oranges, Avocados, Mangoes, Guavas, Bananas",
+    "production_rating": 5,
+    "production_season": "Citrus: May-Sep; Mangoes: Nov-Jan; Avocados: Jul-Oct",
+    "notes": "Historic agriculture; sector recovering; export potential growing",
+    "detailed_production": {
+      "Citrus": 65000,
+      "Avocados": 25000,
+      "Mangoes": 70000
+    }
+  },
+  "Ghana": {
+    "country": "Ghana",
+    "region": "West Africa",
+    "main_fruits_produced": "Pineapple, Mangoes, Bananas, Watermelon, Papaya",
+    "production_rating": 8,
+    "production_season": "Year-round (Pineapple: Mar-Jul; Mangoes: Mar-Jun)",
+    "notes": "Major pineapple exporter to Europe; growing mango sector",
+    "detailed_production": {
+      "Pineapple": 750000,
+      "Mangoes": 150000
+    }
+  },
+  "Cameroon": {
+    "country": "Cameroon",
+    "region": "Central Africa",
+    "main_fruits_produced": "Bananas, Plantains, Avocados, Pineapple",
+    "production_rating": 8,
+    "production_season": "Year-round (peak harvests vary by crop)",
+    "notes": "Major banana exporter; rich tropical diversity",
+    "detailed_production": {
+      "Bananas": 1100000,
+      "Pineapple": 350000
+    }
+  },
+  "Somalia": {
+    "country": "Somalia",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Mangoes, Papaya, Citrus, Dates",
+    "production_rating": 4,
+    "production_season": "Year-round (Mangoes: Mar-Jun)",
+    "notes": "Disrupted by conflict; historically significant banana exporter",
+    "detailed_production": {
+      "Bananas": 120000,
+      "Mangoes": 40000
+    }
+  },
+  "Equatorial Guinea": {
+    "country": "Equatorial Guinea",
+    "region": "Central Africa",
+    "main_fruits_produced": "Bananas, Plantains, Coconuts, Papaya",
+    "production_rating": 4,
+    "production_season": "Year-round",
+    "notes": "Small production; oil economy dominates",
+    "detailed_production": {
+      "Bananas": 40000
+    }
+  },
+  "Madagascar": {
+    "country": "Madagascar",
+    "region": "East Africa (Island)",
+    "main_fruits_produced": "Bananas, Lychee, Mangoes, Vanilla, Pineapple",
+    "production_rating": 8,
+    "production_season": "Year-round (Lychee: Nov-Jan; Mangoes: Oct-Jan)",
+    "notes": "World's top vanilla producer; lychee is key export",
+    "detailed_production": {
+      "Bananas": 380000,
+      "Lychee": 80000,
+      "Mangoes": 300000
+    }
+  },
+  "Rwanda": {
+    "country": "Rwanda",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Avocados, Passion Fruit, Mangoes, Pineapple",
+    "production_rating": 8,
+    "production_season": "Year-round (two rainy seasons: Mar-May & Sep-Nov)",
+    "notes": "Very high banana density per capita; growing passion fruit export sector",
+    "detailed_production": {
+      "Bananas": 3500000,
+      "Passion Fruit": 22000,
+      "Avocados": 65000
+    }
+  },
+  "Gambia": {
+    "country": "Gambia",
+    "region": "West Africa",
+    "main_fruits_produced": "Mangoes, Groundnuts, Papaya, Citrus",
+    "production_rating": 4,
+    "production_season": "Mangoes: May-Aug; Citrus: Nov-Feb",
+    "notes": "Small country; mangoes significant for local economy",
+    "detailed_production": {
+      "Mangoes": 18000,
+      "Papaya": 12000
+    }
+  },
+  "Sierra Leone": {
+    "country": "Sierra Leone",
+    "region": "West Africa",
+    "main_fruits_produced": "Bananas, Pineapple, Mangoes, Avocados, Coconuts",
+    "production_rating": 6,
+    "production_season": "Year-round (Pineapple: Apr-Jul; Mangoes: Apr-Jun)",
+    "notes": "Fertile soil; large informal production; recovery post-conflict",
+    "detailed_production": {
+      "Bananas": 250000,
+      "Pineapple": 130000
+    }
+  },
+  "Togo": {
+    "country": "Togo",
+    "region": "West Africa",
+    "main_fruits_produced": "Yams, Mangoes, Pineapple, Bananas, Coconuts",
+    "production_rating": 5,
+    "production_season": "Mangoes: Apr-Jun; Pineapple: Apr-Aug",
+    "notes": "Small country; decent tropical diversity; mostly subsistence",
+    "detailed_production": {
+      "Mangoes": 30000,
+      "Pineapple": 70000
+    }
+  },
+  "Djibouti": {
+    "country": "Djibouti",
+    "region": "East Africa",
+    "main_fruits_produced": "Dates, Citrus, Papaya",
+    "production_rating": 2,
+    "production_season": "Limited seasons",
+    "notes": "Harsh climate limits agriculture; most fruit imported",
+    "detailed_production": {}
+  },
+  "South Africa": {
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "main_fruits_produced": "Oranges, Grapes, Apples, Mangoes, Avocados, Pears",
+    "production_rating": 10,
+    "production_season": "Year-round (Citrus: May-Oct; Grapes: Jan-Apr; Apples: Feb-Apr)",
+    "notes": "Africa's top fruit exporter; world-class wine and table grape industry",
+    "detailed_production": {
+      "Citrus": 2700000,
+      "Grapes": 1900000,
+      "Apples": 950000,
+      "Avocados": 120000
+    }
+  },
+  "Burundi": {
+    "country": "Burundi",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Avocados, Mangoes, Passion Fruit",
+    "production_rating": 7,
+    "production_season": "Year-round (peak Mar-Jun & Sep-Dec)",
+    "notes": "One of Africa's top banana producers per capita",
+    "detailed_production": {
+      "Bananas": 1600000,
+      "Avocados": 30000
+    }
+  },
+  "Ethiopia": {
+    "country": "Ethiopia",
+    "region": "East Africa",
+    "main_fruits_produced": "Bananas, Mangoes, Avocados, Coffee Cherries, Papaya",
+    "production_rating": 8,
+    "production_season": "Year-round (Mangoes: Mar-Jun; Coffee: Oct-Jan)",
+    "notes": "Diverse production; growing avocado export sector",
+    "detailed_production": {
+      "Bananas": 400000,
+      "Mangoes": 250000,
+      "Avocados": 55000
+    }
+  },
+  "Zambia": {
+    "country": "Zambia",
+    "region": "East Africa",
+    "main_fruits_produced": "Mangoes, Bananas, Avocados, Citrus, Pineapple",
+    "production_rating": 5,
+    "production_season": "Mangoes: Nov-Jan; Citrus: May-Aug",
+    "notes": "Good climate; export sector developing; Zambian honey also notable",
+    "detailed_production": {
+      "Mangoes": 80000,
+      "Bananas": 100000
+    }
+  },
+  "Botswana": {
+    "country": "Botswana",
+    "region": "Southern Africa",
+    "main_fruits_produced": "Watermelon, Citrus, Mopane",
+    "production_rating": 3,
+    "production_season": "Summer (Nov-Mar)",
+    "notes": "Limited production due to arid climate",
+    "detailed_production": {
+      "Watermelon": 12000
+    }
+  },
+  "Mauritius": {
+    "country": "Mauritius",
+    "region": "East Africa (Island)",
+    "main_fruits_produced": "Pineapple, Mangoes, Bananas, Lychee, Guava",
+    "production_rating": 5,
+    "production_season": "Pineapple: Jul-Sep; Mangoes: Nov-Feb; Lychee: Dec-Jan",
+    "notes": "Tourism-focused economy; fruit mostly for domestic and resort use",
+    "detailed_production": {
+      "Pineapple": 15000,
+      "Mangoes": 8000
+    }
+  },
+  "Egypt": {
+    "country": "Egypt",
+    "region": "North Africa",
+    "main_fruits_produced": "Dates, Oranges, Grapes, Mangoes, Guava",
+    "production_rating": 10,
+    "production_season": "Year-round (Citrus: Nov-Apr; Dates: Sep-Nov; Grapes: Jul-Sep)",
+    "notes": "Africa's largest fruit producer and major global exporter",
+    "detailed_production": {
+      "Dates": 1700000,
+      "Oranges": 2800000,
+      "Grapes": 1400000
+    }
+  }
+}

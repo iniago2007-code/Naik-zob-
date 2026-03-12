@@ -1,0 +1,683 @@
+[
+  {
+    "Country": "Central African Republic",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Bananas, Plantains, Mangoes, Papaya",
+    "Annual Production (tonnes)": "Bananas: 120,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Year-round",
+    "Notes": "Subsistence farming dominates; limited commercial production",
+    "production_dict": {
+      "Bananas": 120000
+    }
+  },
+  {
+    "Country": "Liberia",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Bananas, Pineapple, Papaya, Coconuts, Sugarcane",
+    "Annual Production (tonnes)": "Bananas: 120,000 | Pineapple: 45,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Year-round",
+    "Notes": "Tropical climate; mostly subsistence farming",
+    "production_dict": {
+      "Bananas": 120000,
+      "Pineapple": 45000
+    }
+  },
+  {
+    "Country": "Cabo Verde",
+    "Region": "West Africa (Islands)",
+    "Main Fruits Produced": "Bananas, Mangoes, Papaya, Sugar Cane",
+    "Annual Production (tonnes)": "Bananas: 6,000 | Mangoes: 3,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Year-round (Mangoes: Jun-Sep)",
+    "Notes": "Small island production; mostly for domestic use",
+    "production_dict": {
+      "Bananas": 6000,
+      "Mangoes": 3000
+    }
+  },
+  {
+    "Country": "Mozambique",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Mangoes, Avocados, Papaya, Citrus",
+    "Annual Production (tonnes)": "Bananas: 130,000 | Mangoes: 200,000",
+    "Production Rating (1-10)": 6,
+    "Production Season": "Mangoes: Oct-Jan; Bananas year-round",
+    "Notes": "Good climate; significant smallholder production",
+    "production_dict": {
+      "Bananas": 130000,
+      "Mangoes": 200000
+    }
+  },
+  {
+    "Country": "Burkina Faso",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Bananas, Papaya, Shea",
+    "Annual Production (tonnes)": "Mangoes: 95,000 | Shea: 800,000",
+    "Production Rating (1-10)": 6,
+    "Production Season": "Dry season harvest (Mangoes: Apr-Jul)",
+    "Notes": "Mangoes are major export; shea fruit widely harvested",
+    "production_dict": {
+      "Mangoes": 95000,
+      "Shea": 800000
+    }
+  },
+  {
+    "Country": "Nigeria",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Bananas, Pineapple, Papaya, Watermelon, Citrus",
+    "Annual Production (tonnes)": "Mangoes: 900,000 | Pineapple: 900,000 | Bananas: 2,800,000",
+    "Production Rating (1-10)": 9,
+    "Production Season": "Year-round (varies by crop and region)",
+    "Notes": "Africa's most populous nation; massive domestic production; export potential underutilized",
+    "production_dict": {
+      "Mangoes": 900000,
+      "Pineapple": 900000,
+      "Bananas": 2800000
+    }
+  },
+  {
+    "Country": "Kenya",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Avocados, Mangoes, Bananas, Pineapple, Passion Fruit",
+    "Annual Production (tonnes)": "Avocados: 370,000 | Mangoes: 600,000 | Pineapple: 350,000",
+    "Production Rating (1-10)": 9,
+    "Production Season": "Year-round (Avocados: Jan-Mar & Jul-Sep; Mangoes: Oct-Dec)",
+    "Notes": "Top African avocado exporter; diverse fruit for export and domestic use",
+    "production_dict": {
+      "Avocados": 370000,
+      "Mangoes": 600000,
+      "Pineapple": 350000
+    }
+  },
+  {
+    "Country": "South Sudan",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Mangoes, Bananas, Papaya, Guava",
+    "Annual Production (tonnes)": "Mangoes: 30,000",
+    "Production Rating (1-10)": 3,
+    "Production Season": "Mangoes: Mar-Jun",
+    "Notes": "Conflict and infrastructure challenges limit production",
+    "production_dict": {
+      "Mangoes": 30000
+    }
+  },
+  {
+    "Country": "Morocco",
+    "Region": "North Africa",
+    "Main Fruits Produced": "Oranges, Clementines, Dates, Watermelon, Grapes, Avocados",
+    "Annual Production (tonnes)": "Citrus: 2,600,000 | Watermelon: 700,000 | Dates: 140,000",
+    "Production Rating (1-10)": 9,
+    "Production Season": "Citrus: Nov-Apr; Dates: Sep-Nov; Watermelon: Jun-Aug",
+    "Notes": "Major citrus exporter to Europe; growing avocado production",
+    "production_dict": {
+      "Citrus": 2600000,
+      "Watermelon": 700000,
+      "Dates": 140000
+    }
+  },
+  {
+    "Country": "Uganda",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Pineapple, Mangoes, Avocados, Passion Fruit, Jackfruit",
+    "Annual Production (tonnes)": "Bananas: 11,000,000 | Pineapple: 380,000 | Avocados: 200,000",
+    "Production Rating (1-10)": 10,
+    "Production Season": "Year-round (two rainy seasons)",
+    "Notes": "World's largest banana producer per capita; enormous diversity and output",
+    "production_dict": {
+      "Bananas": 11000000,
+      "Pineapple": 380000,
+      "Avocados": 200000
+    }
+  },
+  {
+    "Country": "Eritrea",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Dates, Citrus, Bananas, Papaya",
+    "Annual Production (tonnes)": "Dates: 12,000 | Citrus: 8,000",
+    "Production Rating (1-10)": 3,
+    "Production Season": "Dates: Sep-Nov; Citrus: Dec-Mar",
+    "Notes": "Limited by dry climate; some irrigated agriculture",
+    "production_dict": {
+      "Dates": 12000,
+      "Citrus": 8000
+    }
+  },
+  {
+    "Country": "Chad",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Dates, Mangoes, Guava, Citrus",
+    "Annual Production (tonnes)": "Dates: 55,000 | Mangoes: 40,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Dates: Sep-Nov; Mangoes: Apr-Jun",
+    "Notes": "Semi-arid north limits production; south more productive",
+    "production_dict": {
+      "Dates": 55000,
+      "Mangoes": 40000
+    }
+  },
+  {
+    "Country": "Eswatini",
+    "Region": "Southern Africa",
+    "Main Fruits Produced": "Citrus, Pineapple, Mangoes, Avocados",
+    "Annual Production (tonnes)": "Citrus: 95,000 | Pineapple: 15,000",
+    "Production Rating (1-10)": 6,
+    "Production Season": "Citrus: May-Sep; Pineapple: Nov-Mar",
+    "Notes": "Significant citrus exporter relative to its size",
+    "production_dict": {
+      "Citrus": 95000,
+      "Pineapple": 15000
+    }
+  },
+  {
+    "Country": "Mali",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Watermelon, Shea, Bananas",
+    "Annual Production (tonnes)": "Mangoes: 600,000 | Watermelon: 200,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Mangoes: Apr-Jul; Watermelon: Apr-Jun",
+    "Notes": "Among Africa's top mango producers; major export to Europe",
+    "production_dict": {
+      "Mangoes": 600000,
+      "Watermelon": 200000
+    }
+  },
+  {
+    "Country": "Niger",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Dates, Guava, Onions",
+    "Annual Production (tonnes)": "Dates: 80,000 | Mangoes: 60,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Dates: Sep-Nov; Mangoes: Apr-Jun",
+    "Notes": "Desert north limits production; mangoes in south",
+    "production_dict": {
+      "Dates": 80000,
+      "Mangoes": 60000
+    }
+  },
+  {
+    "Country": "Lesotho",
+    "Region": "Southern Africa",
+    "Main Fruits Produced": "Peaches, Apricots, Apples, Pears",
+    "Annual Production (tonnes)": "Peaches: 5,000 | Apples: 3,000",
+    "Production Rating (1-10)": 3,
+    "Production Season": "Summer (Dec-Feb)",
+    "Notes": "Highland climate suits temperate fruits; small-scale production",
+    "production_dict": {
+      "Peaches": 5000,
+      "Apples": 3000
+    }
+  },
+  {
+    "Country": "Democratic Republic of Congo",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Bananas, Plantains, Mangoes, Pineapple, Papaya",
+    "Annual Production (tonnes)": "Bananas: 4,500,000 | Plantains: 1,200,000",
+    "Production Rating (1-10)": 9,
+    "Production Season": "Year-round",
+    "Notes": "One of Africa's largest banana producers; vast arable land",
+    "production_dict": {
+      "Bananas": 4500000,
+      "Plantains": 1200000
+    }
+  },
+  {
+    "Country": "Algeria",
+    "Region": "North Africa",
+    "Main Fruits Produced": "Dates, Figs, Oranges, Grapes",
+    "Annual Production (tonnes)": "Dates: 1,100,000 | Figs: 80,000 | Oranges: 450,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Year-round (Dates: Oct-Dec; Citrus: Nov-Apr; Grapes: Jul-Sep)",
+    "Notes": "Major date exporter; Mediterranean climate supports diverse fruit",
+    "production_dict": {
+      "Dates": 1100000,
+      "Figs": 80000,
+      "Oranges": 450000
+    }
+  },
+  {
+    "Country": "Tanzania",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Mangoes, Pineapple, Avocados, Passion Fruit, Cashew",
+    "Annual Production (tonnes)": "Bananas: 5,200,000 | Mangoes: 380,000 | Avocados: 120,000",
+    "Production Rating (1-10)": 9,
+    "Production Season": "Year-round (two seasons: short rains Oct-Dec; long rains Mar-Jun)",
+    "Notes": "One of Africa's largest banana producers; growing avocado export",
+    "production_dict": {
+      "Bananas": 5200000,
+      "Mangoes": 380000,
+      "Avocados": 120000
+    }
+  },
+  {
+    "Country": "Libya",
+    "Region": "North Africa",
+    "Main Fruits Produced": "Dates, Olives, Figs, Citrus, Grapes",
+    "Annual Production (tonnes)": "Dates: 180,000 | Olives: 200,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Dates: Sep-Nov; Citrus: Nov-Apr; Grapes: Jul-Sep",
+    "Notes": "Semi-arid limits output; oasis agriculture for dates",
+    "production_dict": {
+      "Dates": 180000,
+      "Olives": 200000
+    }
+  },
+  {
+    "Country": "Mauritania",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Dates, Watermelon, Citrus",
+    "Annual Production (tonnes)": "Dates: 25,000",
+    "Production Rating (1-10)": 3,
+    "Production Season": "Dates: Sep-Nov",
+    "Notes": "Mostly desert; production concentrated in river valley and oases",
+    "production_dict": {
+      "Dates": 25000
+    }
+  },
+  {
+    "Country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "Region": "Central Africa (Island)",
+    "Main Fruits Produced": "Bananas, Coconuts, Papaya, Cacao, Avocados",
+    "Annual Production (tonnes)": "Bananas: 30,000 | Coconuts: 25,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Year-round",
+    "Notes": "Small island; tropical diversity; mostly local consumption",
+    "production_dict": {
+      "Bananas": 30000,
+      "Coconuts": 25000
+    }
+  },
+  {
+    "Country": "Malawi",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Mangoes, Avocados, Papaya, Citrus",
+    "Annual Production (tonnes)": "Mangoes: 400,000 | Bananas: 500,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Mangoes: Oct-Jan; Bananas year-round",
+    "Notes": "Rich soil; mangoes dominate; growing export potential",
+    "production_dict": {
+      "Mangoes": 400000,
+      "Bananas": 500000
+    }
+  },
+  {
+    "Country": "Sudan",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Dates, Mangoes, Bananas, Citrus, Guava",
+    "Annual Production (tonnes)": "Dates: 420,000 | Mangoes: 350,000 | Citrus: 200,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Dates: Sep-Nov; Mangoes: Apr-Jul; Citrus: Dec-Mar",
+    "Notes": "Significant date and mango production; Nile basin supports agriculture",
+    "production_dict": {
+      "Dates": 420000,
+      "Mangoes": 350000,
+      "Citrus": 200000
+    }
+  },
+  {
+    "Country": "Angola",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Bananas, Mangoes, Papaya, Pineapple",
+    "Annual Production (tonnes)": "Bananas: 300,000 | Mangoes: 90,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Year-round (Bananas & Papaya year-round; Mangoes: Oct-Jan)",
+    "Notes": "Growing sector with significant untapped potential",
+    "production_dict": {
+      "Bananas": 300000,
+      "Mangoes": 90000
+    }
+  },
+  {
+    "Country": "Guinea",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Bananas, Pineapple, Papaya, Avocados",
+    "Annual Production (tonnes)": "Mangoes: 300,000 | Bananas: 550,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Mangoes: Apr-Jul; Bananas year-round",
+    "Notes": "Significant mango production; underutilized potential",
+    "production_dict": {
+      "Mangoes": 300000,
+      "Bananas": 550000
+    }
+  },
+  {
+    "Country": "Benin",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Pineapple, Mangoes, Cashew Apple, Bananas",
+    "Annual Production (tonnes)": "Pineapple: 180,000 | Mangoes: 75,000",
+    "Production Rating (1-10)": 6,
+    "Production Season": "Year-round (Mangoes: Mar-Jun; Pineapple: Apr-Aug)",
+    "Notes": "Pineapple is a key export crop",
+    "production_dict": {
+      "Pineapple": 180000,
+      "Mangoes": 75000
+    }
+  },
+  {
+    "Country": "Senegal",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Watermelon, Citrus, Bananas, Papayas",
+    "Annual Production (tonnes)": "Mangoes: 200,000 | Watermelon: 80,000",
+    "Production Rating (1-10)": 6,
+    "Production Season": "Mangoes: May-Jul; Watermelon: Apr-Jun; Citrus: Nov-Mar",
+    "Notes": "Growing mango export to Europe; strong smallholder base",
+    "production_dict": {
+      "Mangoes": 200000,
+      "Watermelon": 80000
+    }
+  },
+  {
+    "Country": "Namibia",
+    "Region": "Southern Africa",
+    "Main Fruits Produced": "Grapes, Dates, Citrus, Figs",
+    "Annual Production (tonnes)": "Grapes: 12,000 | Dates: 5,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Grapes: Jan-Mar; Dates: Sep-Nov",
+    "Notes": "Arid climate; table grape export growing; niche production",
+    "production_dict": {
+      "Grapes": 12000,
+      "Dates": 5000
+    }
+  },
+  {
+    "Country": "Ivory Coast",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Bananas, Pineapple, Mangoes, Avocados, Papaya",
+    "Annual Production (tonnes)": "Bananas: 2,200,000 | Pineapple: 420,000",
+    "Production Rating (1-10)": 9,
+    "Production Season": "Year-round (Bananas peak Jan-Apr; Pineapple Apr-Aug)",
+    "Notes": "Major African fruit exporter; 2nd largest banana exporter in Africa",
+    "production_dict": {
+      "Bananas": 2200000,
+      "Pineapple": 420000
+    }
+  },
+  {
+    "Country": "Tunisia",
+    "Region": "North Africa",
+    "Main Fruits Produced": "Dates, Olives, Citrus, Peaches, Pomegranate, Figs",
+    "Annual Production (tonnes)": "Dates: 280,000 | Citrus: 350,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Dates: Sep-Nov; Citrus: Nov-Apr; Peaches: Jun-Aug",
+    "Notes": "Major date exporter (Deglet Nour variety); Mediterranean fruits dominant",
+    "production_dict": {
+      "Dates": 280000,
+      "Citrus": 350000
+    }
+  },
+  {
+    "Country": "Comoros",
+    "Region": "East Africa (Islands)",
+    "Main Fruits Produced": "Ylang-Ylang, Bananas, Coconuts, Cloves",
+    "Annual Production (tonnes)": "Bananas: 50,000 | Coconuts: 77,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Year-round",
+    "Notes": "Small island nation; tropical crops dominate",
+    "production_dict": {
+      "Bananas": 50000,
+      "Coconuts": 77000
+    }
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Cashew Apple, Mangoes, Bananas, Citrus",
+    "Annual Production (tonnes)": "Cashew Apple: 180,000 | Mangoes: 30,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Cashew: Feb-May; Mangoes: Apr-Jun",
+    "Notes": "One of world's top cashew producers; cashew apple byproduct significant",
+    "production_dict": {
+      "Cashew Apple": 180000,
+      "Mangoes": 30000
+    }
+  },
+  {
+    "Country": "Gabon",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Bananas, Plantains, Papaya, Pineapple, Coconuts",
+    "Annual Production (tonnes)": "Bananas: 300,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Year-round",
+    "Notes": "Mostly subsistence; oil economy overshadows agriculture",
+    "production_dict": {
+      "Bananas": 300000
+    }
+  },
+  {
+    "Country": "Zimbabwe",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Oranges, Avocados, Mangoes, Guavas, Bananas",
+    "Annual Production (tonnes)": "Citrus: 65,000 | Avocados: 25,000 | Mangoes: 70,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Citrus: May-Sep; Mangoes: Nov-Jan; Avocados: Jul-Oct",
+    "Notes": "Historic agriculture; sector recovering; export potential growing",
+    "production_dict": {
+      "Citrus": 65000,
+      "Avocados": 25000,
+      "Mangoes": 70000
+    }
+  },
+  {
+    "Country": "Ghana",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Pineapple, Mangoes, Bananas, Watermelon, Papaya",
+    "Annual Production (tonnes)": "Pineapple: 750,000 | Mangoes: 150,000",
+    "Production Rating (1-10)": 8,
+    "Production Season": "Year-round (Pineapple: Mar-Jul; Mangoes: Mar-Jun)",
+    "Notes": "Major pineapple exporter to Europe; growing mango sector",
+    "production_dict": {
+      "Pineapple": 750000,
+      "Mangoes": 150000
+    }
+  },
+  {
+    "Country": "Cameroon",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Bananas, Plantains, Avocados, Pineapple",
+    "Annual Production (tonnes)": "Bananas: 1,100,000 | Pineapple: 350,000",
+    "Production Rating (1-10)": 8,
+    "Production Season": "Year-round (peak harvests vary by crop)",
+    "Notes": "Major banana exporter; rich tropical diversity",
+    "production_dict": {
+      "Bananas": 1100000,
+      "Pineapple": 350000
+    }
+  },
+  {
+    "Country": "Somalia",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Mangoes, Papaya, Citrus, Dates",
+    "Annual Production (tonnes)": "Bananas: 120,000 | Mangoes: 40,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Year-round (Mangoes: Mar-Jun)",
+    "Notes": "Disrupted by conflict; historically significant banana exporter",
+    "production_dict": {
+      "Bananas": 120000,
+      "Mangoes": 40000
+    }
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Region": "Central Africa",
+    "Main Fruits Produced": "Bananas, Plantains, Coconuts, Papaya",
+    "Annual Production (tonnes)": "Bananas: 40,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Year-round",
+    "Notes": "Small production; oil economy dominates",
+    "production_dict": {
+      "Bananas": 40000
+    }
+  },
+  {
+    "Country": "Madagascar",
+    "Region": "East Africa (Island)",
+    "Main Fruits Produced": "Bananas, Lychee, Mangoes, Vanilla, Pineapple",
+    "Annual Production (tonnes)": "Bananas: 380,000 | Lychee: 80,000 | Mangoes: 300,000",
+    "Production Rating (1-10)": 8,
+    "Production Season": "Year-round (Lychee: Nov-Jan; Mangoes: Oct-Jan)",
+    "Notes": "World's top vanilla producer; lychee is key export",
+    "production_dict": {
+      "Bananas": 380000,
+      "Lychee": 80000,
+      "Mangoes": 300000
+    }
+  },
+  {
+    "Country": "Rwanda",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Avocados, Passion Fruit, Mangoes, Pineapple",
+    "Annual Production (tonnes)": "Bananas: 3,500,000 | Passion Fruit: 22,000 | Avocados: 65,000",
+    "Production Rating (1-10)": 8,
+    "Production Season": "Year-round (two rainy seasons: Mar-May & Sep-Nov)",
+    "Notes": "Very high banana density per capita; growing passion fruit export sector",
+    "production_dict": {
+      "Bananas": 3500000,
+      "Passion Fruit": 22000,
+      "Avocados": 65000
+    }
+  },
+  {
+    "Country": "Gambia",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Mangoes, Groundnuts, Papaya, Citrus",
+    "Annual Production (tonnes)": "Mangoes: 18,000 | Papaya: 12,000",
+    "Production Rating (1-10)": 4,
+    "Production Season": "Mangoes: May-Aug; Citrus: Nov-Feb",
+    "Notes": "Small country; mangoes significant for local economy",
+    "production_dict": {
+      "Mangoes": 18000,
+      "Papaya": 12000
+    }
+  },
+  {
+    "Country": "Sierra Leone",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Bananas, Pineapple, Mangoes, Avocados, Coconuts",
+    "Annual Production (tonnes)": "Bananas: 250,000 | Pineapple: 130,000",
+    "Production Rating (1-10)": 6,
+    "Production Season": "Year-round (Pineapple: Apr-Jul; Mangoes: Apr-Jun)",
+    "Notes": "Fertile soil; large informal production; recovery post-conflict",
+    "production_dict": {
+      "Bananas": 250000,
+      "Pineapple": 130000
+    }
+  },
+  {
+    "Country": "Togo",
+    "Region": "West Africa",
+    "Main Fruits Produced": "Yams, Mangoes, Pineapple, Bananas, Coconuts",
+    "Annual Production (tonnes)": "Mangoes: 30,000 | Pineapple: 70,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Mangoes: Apr-Jun; Pineapple: Apr-Aug",
+    "Notes": "Small country; decent tropical diversity; mostly subsistence",
+    "production_dict": {
+      "Mangoes": 30000,
+      "Pineapple": 70000
+    }
+  },
+  {
+    "Country": "Djibouti",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Dates, Citrus, Papaya",
+    "Annual Production (tonnes)": "Minimal commercial production",
+    "Production Rating (1-10)": 2,
+    "Production Season": "Limited seasons",
+    "Notes": "Harsh climate limits agriculture; most fruit imported",
+    "production_dict": {}
+  },
+  {
+    "Country": "South Africa",
+    "Region": "Southern Africa",
+    "Main Fruits Produced": "Oranges, Grapes, Apples, Mangoes, Avocados, Pears",
+    "Annual Production (tonnes)": "Citrus: 2,700,000 | Grapes: 1,900,000 | Apples: 950,000 | Avocados: 120,000",
+    "Production Rating (1-10)": 10,
+    "Production Season": "Year-round (Citrus: May-Oct; Grapes: Jan-Apr; Apples: Feb-Apr)",
+    "Notes": "Africa's top fruit exporter; world-class wine and table grape industry",
+    "production_dict": {
+      "Citrus": 2700000,
+      "Grapes": 1900000,
+      "Apples": 950000,
+      "Avocados": 120000
+    }
+  },
+  {
+    "Country": "Burundi",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Avocados, Mangoes, Passion Fruit",
+    "Annual Production (tonnes)": "Bananas: 1,600,000 | Avocados: 30,000",
+    "Production Rating (1-10)": 7,
+    "Production Season": "Year-round (peak Mar-Jun & Sep-Dec)",
+    "Notes": "One of Africa's top banana producers per capita",
+    "production_dict": {
+      "Bananas": 1600000,
+      "Avocados": 30000
+    }
+  },
+  {
+    "Country": "Ethiopia",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Bananas, Mangoes, Avocados, Coffee Cherries, Papaya",
+    "Annual Production (tonnes)": "Bananas: 400,000 | Mangoes: 250,000 | Avocados: 55,000",
+    "Production Rating (1-10)": 8,
+    "Production Season": "Year-round (Mangoes: Mar-Jun; Coffee: Oct-Jan)",
+    "Notes": "Diverse production; growing avocado export sector",
+    "production_dict": {
+      "Bananas": 400000,
+      "Mangoes": 250000,
+      "Avocados": 55000
+    }
+  },
+  {
+    "Country": "Zambia",
+    "Region": "East Africa",
+    "Main Fruits Produced": "Mangoes, Bananas, Avocados, Citrus, Pineapple",
+    "Annual Production (tonnes)": "Mangoes: 80,000 | Bananas: 100,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Mangoes: Nov-Jan; Citrus: May-Aug",
+    "Notes": "Good climate; export sector developing; Zambian honey also notable",
+    "production_dict": {
+      "Mangoes": 80000,
+      "Bananas": 100000
+    }
+  },
+  {
+    "Country": "Botswana",
+    "Region": "Southern Africa",
+    "Main Fruits Produced": "Watermelon, Citrus, Mopane",
+    "Annual Production (tonnes)": "Watermelon: 12,000",
+    "Production Rating (1-10)": 3,
+    "Production Season": "Summer (Nov-Mar)",
+    "Notes": "Limited production due to arid climate",
+    "production_dict": {
+      "Watermelon": 12000
+    }
+  },
+  {
+    "Country": "Mauritius",
+    "Region": "East Africa (Island)",
+    "Main Fruits Produced": "Pineapple, Mangoes, Bananas, Lychee, Guava",
+    "Annual Production (tonnes)": "Pineapple: 15,000 | Mangoes: 8,000",
+    "Production Rating (1-10)": 5,
+    "Production Season": "Pineapple: Jul-Sep; Mangoes: Nov-Feb; Lychee: Dec-Jan",
+    "Notes": "Tourism-focused economy; fruit mostly for domestic and resort use",
+    "production_dict": {
+      "Pineapple": 15000,
+      "Mangoes": 8000
+    }
+  },
+  {
+    "Country": "Egypt",
+    "Region": "North Africa",
+    "Main Fruits Produced": "Dates, Oranges, Grapes, Mangoes, Guava",
+    "Annual Production (tonnes)": "Dates: 1,700,000 | Oranges: 2,800,000 | Grapes: 1,400,000",
+    "Production Rating (1-10)": 10,
+    "Production Season": "Year-round (Citrus: Nov-Apr; Dates: Sep-Nov; Grapes: Jul-Sep)",
+    "Notes": "Africa's largest fruit producer and major global exporter",
+    "production_dict": {
+      "Dates": 1700000,
+      "Oranges": 2800000,
+      "Grapes": 1400000
+    }
+  }
+]

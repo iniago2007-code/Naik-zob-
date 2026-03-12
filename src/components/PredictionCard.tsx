@@ -14,7 +14,7 @@ interface PredictionCardProps {
 
 export default function PredictionCard({ data }: PredictionCardProps) {
   return (
-    <div className="bg-white rounded-[2rem] p-10 shadow-2xl shadow-gray-200/50 border border-gray-100 flex flex-col gap-10 animate-fade-in-up">
+    <div className="bg-white rounded-4xl p-10 shadow-2xl shadow-gray-200/50 border border-gray-100 flex flex-col gap-10 animate-fade-in-up">
       {/* Header Section */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
         <div className="space-y-2">
@@ -24,7 +24,7 @@ export default function PredictionCard({ data }: PredictionCardProps) {
           </div>
           <p className="text-sm font-bold text-farming-primary uppercase tracking-[0.2em] ml-11">{data.region} / Territory Intelligence</p>
         </div>
-        <div className="bg-gradient-to-br from-farming-dark to-farming-primary p-1 rounded-2xl shadow-lg shadow-farming-primary/20">
+        <div className="bg-linear-to-br from-farming-dark to-farming-primary p-1 rounded-2xl shadow-lg shadow-farming-primary/20">
           <div className="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-xl flex items-center gap-4">
             <span className="text-xs font-black text-gray-400 uppercase tracking-widest leading-none">Yield<br/>Rating</span>
             <span className="text-4xl font-black text-farming-primary tracking-tighter">{data.production_rating}/10</span>
@@ -49,7 +49,7 @@ export default function PredictionCard({ data }: PredictionCardProps) {
           <p className="text-gray-900 font-bold text-lg leading-snug">{data.production_season}</p>
         </div>
 
-        <div className="bg-gradient-to-br from-farming-bg to-white p-6 rounded-2xl border border-farming-primary/10 shadow-inner md:col-span-1">
+        <div className="bg-linear-to-br from-farming-bg to-white p-6 rounded-2xl border border-farming-primary/10 shadow-inner md:col-span-1">
           <h3 className="text-[10px] uppercase tracking-widest font-black text-farming-primary mb-4">Strategic Insights</h3>
           <p className="text-gray-700 text-sm font-medium leading-relaxed italic">"{data.notes}"</p>
         </div>
@@ -69,7 +69,7 @@ export default function PredictionCard({ data }: PredictionCardProps) {
                 className="group relative bg-white p-6 rounded-3xl border border-gray-100 shadow-sm transition-all hover:shadow-xl hover:-translate-y-2 cursor-pointer overflow-hidden"
                 style={{ animationDelay: `${idx * 80}ms` }}
               >
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-farming-primary to-farming-accent scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-farming-primary to-farming-accent scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
                 <div className="text-4xl mb-4 transform group-hover:scale-125 transition-transform duration-300 pointer-events-none drop-shadow-sm">
                   {getFruitEmoji(fruit)}
                 </div>

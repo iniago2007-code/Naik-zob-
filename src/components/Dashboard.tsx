@@ -6,30 +6,53 @@ interface DashboardProps {
   onSignOut: () => void;
 }
 
+interface AgriculturalData {
+  country: string;
+  region: string;
+  main_fruits_produced: string;
+  production_rating: number;
+  production_season: string;
+  notes: string;
+  detailed_production: Record<string, number>;
+}
+
 export default function Dashboard({ onSignOut }: DashboardProps) {
   const [countries, setCountries] = useState<string[]>([]);
   const [selectedCountry, setSelectedCountry] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingCountries, setIsLoadingCountries] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [allData, setAllData] = useState<Record<string, AgriculturalData>>({});
   const [result, setResult] = useState<PredictionData | null>(null);
 
   useEffect(() => {
-    const fetchCountries = async () => {
+    const fetchData = async () => {
       try {
-        const res = await fetch('http://localhost:8000/api/countries');
-        if (!res.ok) throw new Error('Failed to fetch country list');
-        const data = await res.json();
-        setCountries(data);
+        const [countriesRes, dataRes] = await Promise.all([
+          fetch('/data/countries.json'),
+          fetch('/data/fruit_data.json')
+        ]);
+
+        if (!countriesRes.ok || !dataRes.ok) {
+          throw new Error('Failed to fetch agricultural data');
+        }
+
+        const [countriesData, agriculturalData]: [string[], Record<string, AgriculturalData>] = await Promise.all([
+          countriesRes.json(),
+          dataRes.json()
+        ]);
+
+        setCountries(countriesData.sort());
+        setAllData(agriculturalData);
       } catch (err) {
-        console.error('Error fetching countries:', err);
+        console.error('Error fetching data:', err);
         setError('Failed to initialize territory intelligence. Using fallback list.');
         setCountries(['Nigeria', 'Ghana', 'South Africa', 'Kenya', 'Ethiopia']);
       } finally {
         setIsLoadingCountries(false);
       }
     };
-    fetchCountries();
+    fetchData();
   }, []);
 
   const handlePredict = async (countryName: string) => {
@@ -39,21 +62,17 @@ export default function Dashboard({ onSignOut }: DashboardProps) {
     setError(null);
     setResult(null);
 
-    try {
-      const res = await fetch(`http://localhost:8000/api/country/${encodeURIComponent(countryName)}`);
-      if (!res.ok) {
-        if (res.status === 404) {
-          throw new Error(`Data trace for "${countryName}" not found in our current model.`);
-        }
-        throw new Error('Intelligence retrieval failed. Please check your connection.');
-      }
-      const data = await res.json();
-      setResult(data);
-    } catch (err: any) {
-      setError(err.message || 'An unexpected error occurred during analysis');
-    } finally {
-      setIsLoading(false);
+    // Simulate analysis delay
+    await new Promise(resolve => setTimeout(resolve, 300));
+
+    const countryData = allData[countryName];
+    
+    if (countryData) {
+      setResult(countryData);
+    } else {
+      setError(`Data trace for "${countryName}" not found in our current model.`);
     }
+    setIsLoading(false);
   };
 
   const onCountryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -70,7 +89,7 @@ export default function Dashboard({ onSignOut }: DashboardProps) {
       <header className="w-full bg-white/70 backdrop-blur-xl border-b border-gray-100 sticky top-0 z-50 transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 group cursor-default">
-            <div className="w-10 h-10 bg-gradient-to-tr from-farming-primary to-farming-accent rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300">
+            <div className="w-10 h-10 bg-linear-to-tr from-farming-primary to-farming-accent rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300">
               <span className="text-white text-xl">🌾</span>
             </div>
             <div>
@@ -108,7 +127,7 @@ export default function Dashboard({ onSignOut }: DashboardProps) {
             Regional Analysis Engine v4.0.2
           </div>
           <h1 className="text-5xl md:text-6xl font-black text-gray-900 tracking-tight leading-tight">
-            Agricultural <span className="text-transparent bg-clip-text bg-gradient-to-r from-farming-primary to-farming-accent">Yield Prediction</span>
+            Agricultural <span className="text-transparent bg-clip-text bg-linear-to-r from-farming-primary to-farming-accent">Yield Prediction</span>
           </h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto font-medium leading-relaxed">
             Select a territory to analyze regional production capacities across the African continent.

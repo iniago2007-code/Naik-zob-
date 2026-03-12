@@ -26,41 +26,25 @@ The system allows users to search for specific African countries and retrieve de
 
 ## 📂 Project Structure
 
-- `backend/`: FastAPI application code (`main.py`)
-- `frontend/`: React Vite application
-- `fruit.ipynb`: Jupyter Notebook used for initial data exploration and processing
+- `src/`: React application components and logic
+- `public/`: Static assets and the `data/` repository
+  - `data/countries.json`: List of supported territories
+  - `data/fruit_data.json`: Detailed agricultural intelligence
+- `fruit.ipynb`: Jupyter Notebook for data exploration
 - `africa_fruit_train.csv` / `africa_fruit_test.csv`: Source datasets
-- `fruit_data.pkl`: Processed data object for efficient server loading
+- `export_data.py`: Script to export CSV data to the structured JSON repository
 
 ## ⚙️ Setup and Installation
 
-### Backend Setup
-1. Navigate to the backend directory:
+### Frontend Application
+1. Install dependencies from the root directory:
    ```bash
-   cd backend
+   npm install  # or npm install
    ```
-2. Install dependencies (FastAPI, Uvicorn, Pandas):
+2. Start the development server:
    ```bash
-   pip install fastapi uvicorn pandas
-   ```
-3. Start the server:
-   ```bash
-   python -m uvicorn main:app --reload --port 8000
+   npm run dev     # or npm run dev
    ```
 
-### Frontend Setup
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-2. Install dependencies:
-   ```bash
-   bun install  # or npm install
-   ```
-3. Start the development server:
-   ```bash
-   bun dev     # or npm run dev
-   ```
-
-## 📈 Data Pipeline
-The data is processed via `fruit.ipynb`, which cleans the raw CSV data, parses production strings into structured dictionaries, and serializes the result into `fruit_data.pkl`. The FastAPI server loads this pickle file at startup for lightning-fast lookups.
+### Data Pipeline
+The data is managed via the `public/data/` repository. You can use `export_data.py` to process the source CSV files into the structured JSON format required by the dashboard.
