@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-farming-light: #E8F5E9;
+  --color-farming-primary: #2E7D32;
+  --color-farming-dark: #1B5E20;
+  --color-farming-accent: #F9A825;
+  --color-farming-earth: #795548;
+  --color-farming-bg: #F1F8E9;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@layer base {
+  body {
+    @apply bg-farming-bg text-gray-800 font-sans antialiased;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md shadow-xl border border-white/40;
+  }
+  
+  .btn-primary {
+    @apply bg-farming-primary text-white font-medium py-2 px-6 rounded-lg shadow-md hover:bg-farming-dark hover:shadow-lg transition-all active:scale-95 duration-200;
+  }
+}

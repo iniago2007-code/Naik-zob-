@@ -1,0 +1,42 @@
+Country,Region,Main Fruits Produced,Annual Production (tonnes),Production Rating (1-10),Production Season,Notes
+Central African Republic,Central Africa,"Bananas, Plantains, Mangoes, Papaya","Bananas: 120,000",4,Year-round,Subsistence farming dominates; limited commercial production
+Liberia,West Africa,"Bananas, Pineapple, Papaya, Coconuts, Sugarcane","Bananas: 120,000 | Pineapple: 45,000",5,Year-round,Tropical climate; mostly subsistence farming
+Cabo Verde,West Africa (Islands),"Bananas, Mangoes, Papaya, Sugar Cane","Bananas: 6,000 | Mangoes: 3,000",4,Year-round (Mangoes: Jun-Sep),Small island production; mostly for domestic use
+Mozambique,East Africa,"Bananas, Mangoes, Avocados, Papaya, Citrus","Bananas: 130,000 | Mangoes: 200,000",6,Mangoes: Oct-Jan; Bananas year-round,Good climate; significant smallholder production
+Burkina Faso,West Africa,"Mangoes, Bananas, Papaya, Shea","Mangoes: 95,000 | Shea: 800,000",6,Dry season harvest (Mangoes: Apr-Jul),Mangoes are major export; shea fruit widely harvested
+Nigeria,West Africa,"Mangoes, Bananas, Pineapple, Papaya, Watermelon, Citrus","Mangoes: 900,000 | Pineapple: 900,000 | Bananas: 2,800,000",9,Year-round (varies by crop and region),Africa's most populous nation; massive domestic production; export potential underutilized
+Kenya,East Africa,"Avocados, Mangoes, Bananas, Pineapple, Passion Fruit","Avocados: 370,000 | Mangoes: 600,000 | Pineapple: 350,000",9,Year-round (Avocados: Jan-Mar & Jul-Sep; Mangoes: Oct-Dec),Top African avocado exporter; diverse fruit for export and domestic use
+South Sudan,East Africa,"Mangoes, Bananas, Papaya, Guava","Mangoes: 30,000",3,Mangoes: Mar-Jun,Conflict and infrastructure challenges limit production
+Morocco,North Africa,"Oranges, Clementines, Dates, Watermelon, Grapes, Avocados","Citrus: 2,600,000 | Watermelon: 700,000 | Dates: 140,000",9,Citrus: Nov-Apr; Dates: Sep-Nov; Watermelon: Jun-Aug,Major citrus exporter to Europe; growing avocado production
+Uganda,East Africa,"Bananas, Pineapple, Mangoes, Avocados, Passion Fruit, Jackfruit","Bananas: 11,000,000 | Pineapple: 380,000 | Avocados: 200,000",10,Year-round (two rainy seasons),World's largest banana producer per capita; enormous diversity and output
+Eritrea,East Africa,"Dates, Citrus, Bananas, Papaya","Dates: 12,000 | Citrus: 8,000",3,Dates: Sep-Nov; Citrus: Dec-Mar,Limited by dry climate; some irrigated agriculture
+Chad,Central Africa,"Dates, Mangoes, Guava, Citrus","Dates: 55,000 | Mangoes: 40,000",4,Dates: Sep-Nov; Mangoes: Apr-Jun,Semi-arid north limits production; south more productive
+Eswatini,Southern Africa,"Citrus, Pineapple, Mangoes, Avocados","Citrus: 95,000 | Pineapple: 15,000",6,Citrus: May-Sep; Pineapple: Nov-Mar,Significant citrus exporter relative to its size
+Mali,West Africa,"Mangoes, Watermelon, Shea, Bananas","Mangoes: 600,000 | Watermelon: 200,000",7,Mangoes: Apr-Jul; Watermelon: Apr-Jun,Among Africa's top mango producers; major export to Europe
+Niger,West Africa,"Mangoes, Dates, Guava, Onions","Dates: 80,000 | Mangoes: 60,000",4,Dates: Sep-Nov; Mangoes: Apr-Jun,Desert north limits production; mangoes in south
+Lesotho,Southern Africa,"Peaches, Apricots, Apples, Pears","Peaches: 5,000 | Apples: 3,000",3,Summer (Dec-Feb),Highland climate suits temperate fruits; small-scale production
+Democratic Republic of Congo,Central Africa,"Bananas, Plantains, Mangoes, Pineapple, Papaya","Bananas: 4,500,000 | Plantains: 1,200,000",9,Year-round,One of Africa's largest banana producers; vast arable land
+Algeria,North Africa,"Dates, Figs, Oranges, Grapes","Dates: 1,100,000 | Figs: 80,000 | Oranges: 450,000",7,Year-round (Dates: Oct-Dec; Citrus: Nov-Apr; Grapes: Jul-Sep),Major date exporter; Mediterranean climate supports diverse fruit
+Tanzania,East Africa,"Bananas, Mangoes, Pineapple, Avocados, Passion Fruit, Cashew","Bananas: 5,200,000 | Mangoes: 380,000 | Avocados: 120,000",9,Year-round (two seasons: short rains Oct-Dec; long rains Mar-Jun),One of Africa's largest banana producers; growing avocado export
+Libya,North Africa,"Dates, Olives, Figs, Citrus, Grapes","Dates: 180,000 | Olives: 200,000",5,Dates: Sep-Nov; Citrus: Nov-Apr; Grapes: Jul-Sep,Semi-arid limits output; oasis agriculture for dates
+Mauritania,West Africa,"Dates, Watermelon, Citrus","Dates: 25,000",3,Dates: Sep-Nov,Mostly desert; production concentrated in river valley and oases
+São Tomé and Príncipe,Central Africa (Island),"Bananas, Coconuts, Papaya, Cacao, Avocados","Bananas: 30,000 | Coconuts: 25,000",5,Year-round,Small island; tropical diversity; mostly local consumption
+Malawi,East Africa,"Bananas, Mangoes, Avocados, Papaya, Citrus","Mangoes: 400,000 | Bananas: 500,000",7,Mangoes: Oct-Jan; Bananas year-round,Rich soil; mangoes dominate; growing export potential
+Sudan,East Africa,"Dates, Mangoes, Bananas, Citrus, Guava","Dates: 420,000 | Mangoes: 350,000 | Citrus: 200,000",7,Dates: Sep-Nov; Mangoes: Apr-Jul; Citrus: Dec-Mar,Significant date and mango production; Nile basin supports agriculture
+Angola,Central Africa,"Bananas, Mangoes, Papaya, Pineapple","Bananas: 300,000 | Mangoes: 90,000",5,Year-round (Bananas & Papaya year-round; Mangoes: Oct-Jan),Growing sector with significant untapped potential
+Guinea,West Africa,"Mangoes, Bananas, Pineapple, Papaya, Avocados","Mangoes: 300,000 | Bananas: 550,000",7,Mangoes: Apr-Jul; Bananas year-round,Significant mango production; underutilized potential
+Benin,West Africa,"Pineapple, Mangoes, Cashew Apple, Bananas","Pineapple: 180,000 | Mangoes: 75,000",6,Year-round (Mangoes: Mar-Jun; Pineapple: Apr-Aug),Pineapple is a key export crop
+Senegal,West Africa,"Mangoes, Watermelon, Citrus, Bananas, Papayas","Mangoes: 200,000 | Watermelon: 80,000",6,Mangoes: May-Jul; Watermelon: Apr-Jun; Citrus: Nov-Mar,Growing mango export to Europe; strong smallholder base
+Namibia,Southern Africa,"Grapes, Dates, Citrus, Figs","Grapes: 12,000 | Dates: 5,000",4,Grapes: Jan-Mar; Dates: Sep-Nov,Arid climate; table grape export growing; niche production
+Ivory Coast,West Africa,"Bananas, Pineapple, Mangoes, Avocados, Papaya","Bananas: 2,200,000 | Pineapple: 420,000",9,Year-round (Bananas peak Jan-Apr; Pineapple Apr-Aug),Major African fruit exporter; 2nd largest banana exporter in Africa
+Tunisia,North Africa,"Dates, Olives, Citrus, Peaches, Pomegranate, Figs","Dates: 280,000 | Citrus: 350,000",7,Dates: Sep-Nov; Citrus: Nov-Apr; Peaches: Jun-Aug,Major date exporter (Deglet Nour variety); Mediterranean fruits dominant
+Comoros,East Africa (Islands),"Ylang-Ylang, Bananas, Coconuts, Cloves","Bananas: 50,000 | Coconuts: 77,000",5,Year-round,Small island nation; tropical crops dominate
+Guinea-Bissau,West Africa,"Cashew Apple, Mangoes, Bananas, Citrus","Cashew Apple: 180,000 | Mangoes: 30,000",5,Cashew: Feb-May; Mangoes: Apr-Jun,One of world's top cashew producers; cashew apple byproduct significant
+Gabon,Central Africa,"Bananas, Plantains, Papaya, Pineapple, Coconuts","Bananas: 300,000",5,Year-round,Mostly subsistence; oil economy overshadows agriculture
+Zimbabwe,East Africa,"Oranges, Avocados, Mangoes, Guavas, Bananas","Citrus: 65,000 | Avocados: 25,000 | Mangoes: 70,000",5,Citrus: May-Sep; Mangoes: Nov-Jan; Avocados: Jul-Oct,Historic agriculture; sector recovering; export potential growing
+Ghana,West Africa,"Pineapple, Mangoes, Bananas, Watermelon, Papaya","Pineapple: 750,000 | Mangoes: 150,000",8,Year-round (Pineapple: Mar-Jul; Mangoes: Mar-Jun),Major pineapple exporter to Europe; growing mango sector
+Cameroon,Central Africa,"Bananas, Plantains, Avocados, Pineapple","Bananas: 1,100,000 | Pineapple: 350,000",8,Year-round (peak harvests vary by crop),Major banana exporter; rich tropical diversity
+Somalia,East Africa,"Bananas, Mangoes, Papaya, Citrus, Dates","Bananas: 120,000 | Mangoes: 40,000",4,Year-round (Mangoes: Mar-Jun),Disrupted by conflict; historically significant banana exporter
+Equatorial Guinea,Central Africa,"Bananas, Plantains, Coconuts, Papaya","Bananas: 40,000",4,Year-round,Small production; oil economy dominates
+Madagascar,East Africa (Island),"Bananas, Lychee, Mangoes, Vanilla, Pineapple","Bananas: 380,000 | Lychee: 80,000 | Mangoes: 300,000",8,Year-round (Lychee: Nov-Jan; Mangoes: Oct-Jan),World's top vanilla producer; lychee is key export
+Rwanda,East Africa,"Bananas, Avocados, Passion Fruit, Mangoes, Pineapple","Bananas: 3,500,000 | Passion Fruit: 22,000 | Avocados: 65,000",8,Year-round (two rainy seasons: Mar-May & Sep-Nov),Very high banana density per capita; growing passion fruit export sector

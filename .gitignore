@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+dist/
+.vite/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+bun.lockb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+*.log
